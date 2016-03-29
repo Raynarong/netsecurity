@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/netsecurity/!svn/ver/231/netsecurity/src/com/netsecurity/service
+END
+LaboratorySerivce.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/netsecurity/!svn/ver/20/netsecurity/src/com/netsecurity/service/LaboratorySerivce.java
+END
+TrendDataByDayService.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/netsecurity/!svn/ver/208/netsecurity/src/com/netsecurity/service/TrendDataByDayService.java
+END
+OnLineNumService.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/netsecurity/!svn/ver/231/netsecurity/src/com/netsecurity/service/OnLineNumService.java
+END
+TrendDataService.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/netsecurity/!svn/ver/204/netsecurity/src/com/netsecurity/service/TrendDataService.java
+END
+GroupinfoService.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/netsecurity/!svn/ver/229/netsecurity/src/com/netsecurity/service/GroupinfoService.java
+END
+CapTrendData.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/netsecurity/!svn/ver/204/netsecurity/src/com/netsecurity/service/CapTrendData.java
+END
+UserinfoSerivce.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/netsecurity/!svn/ver/230/netsecurity/src/com/netsecurity/service/UserinfoSerivce.java
+END
+UsercomputerService.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/netsecurity/!svn/ver/113/netsecurity/src/com/netsecurity/service/UsercomputerService.java
+END

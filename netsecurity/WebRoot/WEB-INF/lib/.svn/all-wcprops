@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/netsecurity/!svn/ver/4/netsecurity/WebRoot/WEB-INF/lib
+END
+slf4j-log4j12-1.5.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/netsecurity/!svn/ver/2/netsecurity/WebRoot/WEB-INF/lib/slf4j-log4j12-1.5.8.jar
+END
+javassist-3.11.0.GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/netsecurity/!svn/ver/4/netsecurity/WebRoot/WEB-INF/lib/javassist-3.11.0.GA.jar
+END
+c3p0-0.8.5.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/netsecurity/!svn/ver/4/netsecurity/WebRoot/WEB-INF/lib/c3p0-0.8.5.2.jar
+END
+jstl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/netsecurity/!svn/ver/4/netsecurity/WebRoot/WEB-INF/lib/jstl.jar
+END
+commons-lang3-3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/netsecurity/!svn/ver/4/netsecurity/WebRoot/WEB-INF/lib/commons-lang3-3.1.jar
+END
+dom4j-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/netsecurity/!svn/ver/2/netsecurity/WebRoot/WEB-INF/lib/dom4j-1.6.1.jar
+END
+commons-io-2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/netsecurity/!svn/ver/4/netsecurity/WebRoot/WEB-INF/lib/commons-io-2.2.jar
+END
+asm-3.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/netsecurity/!svn/ver/4/netsecurity/WebRoot/WEB-INF/lib/asm-3.3.jar
+END
+hibernate-validator.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/netsecurity/!svn/ver/2/netsecurity/WebRoot/WEB-INF/lib/hibernate-validator.jar
+END
+asm-commons-3.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/netsecurity/!svn/ver/4/netsecurity/WebRoot/WEB-INF/lib/asm-commons-3.3.jar
+END
+hibernate-annotations.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/netsecurity/!svn/ver/2/netsecurity/WebRoot/WEB-INF/lib/hibernate-annotations.jar
+END
+jxl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/netsecurity/!svn/ver/4/netsecurity/WebRoot/WEB-INF/lib/jxl.jar
+END
+log4j-1.2.14.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/netsecurity/!svn/ver/2/netsecurity/WebRoot/WEB-INF/lib/log4j-1.2.14.jar
+END
+standard.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/netsecurity/!svn/ver/4/netsecurity/WebRoot/WEB-INF/lib/standard.jar
+END
+ognl-3.0.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/netsecurity/!svn/ver/4/netsecurity/WebRoot/WEB-INF/lib/ognl-3.0.6.jar
+END
+javassist-3.9.0.GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/netsecurity/!svn/ver/2/netsecurity/WebRoot/WEB-INF/lib/javassist-3.9.0.GA.jar
+END
+log4j-1.2.17.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/netsecurity/!svn/ver/4/netsecurity/WebRoot/WEB-INF/lib/log4j-1.2.17.jar
+END
+ejb3-persistence.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/netsecurity/!svn/ver/2/netsecurity/WebRoot/WEB-INF/lib/ejb3-persistence.jar
+END
+hibernate-commons-annotations.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/netsecurity/!svn/ver/2/netsecurity/WebRoot/WEB-INF/lib/hibernate-commons-annotations.jar
+END
+hibernate-entitymanager.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/netsecurity/!svn/ver/2/netsecurity/WebRoot/WEB-INF/lib/hibernate-entitymanager.jar
+END
+fastjson-1.1.33.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/netsecurity/!svn/ver/4/netsecurity/WebRoot/WEB-INF/lib/fastjson-1.1.33.jar
+END
+freemarker-2.3.19.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/netsecurity/!svn/ver/4/netsecurity/WebRoot/WEB-INF/lib/freemarker-2.3.19.jar
+END
+jta-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/netsecurity/!svn/ver/2/netsecurity/WebRoot/WEB-INF/lib/jta-1.1.jar
+END
+asm-tree-3.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/netsecurity/!svn/ver/4/netsecurity/WebRoot/WEB-INF/lib/asm-tree-3.3.jar
+END
+ehcache-1.2.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/netsecurity/!svn/ver/2/netsecurity/WebRoot/WEB-INF/lib/ehcache-1.2.3.jar
+END
+cglib-2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/netsecurity/!svn/ver/2/netsecurity/WebRoot/WEB-INF/lib/cglib-2.2.jar
+END
+mysql-connector-java-5.0.3-bin.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/netsecurity/!svn/ver/2/netsecurity/WebRoot/WEB-INF/lib/mysql-connector-java-5.0.3-bin.jar
+END
+hibernate3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/netsecurity/!svn/ver/2/netsecurity/WebRoot/WEB-INF/lib/hibernate3.jar
+END
+xwork-core-2.3.16.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/netsecurity/!svn/ver/4/netsecurity/WebRoot/WEB-INF/lib/xwork-core-2.3.16.jar
+END
+commons-collections-3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/netsecurity/!svn/ver/2/netsecurity/WebRoot/WEB-INF/lib/commons-collections-3.1.jar
+END
+antlr-2.7.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/netsecurity/!svn/ver/2/netsecurity/WebRoot/WEB-INF/lib/antlr-2.7.6.jar
+END
+mysql-connector-java-5.1.7-bin.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/netsecurity/!svn/ver/4/netsecurity/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar
+END
+commons-fileupload-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/netsecurity/!svn/ver/4/netsecurity/WebRoot/WEB-INF/lib/commons-fileupload-1.3.jar
+END
+commons-logging-1.1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/netsecurity/!svn/ver/4/netsecurity/WebRoot/WEB-INF/lib/commons-logging-1.1.3.jar
+END
+slf4j-api-1.5.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/netsecurity/!svn/ver/2/netsecurity/WebRoot/WEB-INF/lib/slf4j-api-1.5.8.jar
+END
+struts2-core-2.3.16.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/netsecurity/!svn/ver/4/netsecurity/WebRoot/WEB-INF/lib/struts2-core-2.3.16.jar
+END

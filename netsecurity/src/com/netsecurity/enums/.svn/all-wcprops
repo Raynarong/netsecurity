@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/netsecurity/!svn/ver/202/netsecurity/src/com/netsecurity/enums
+END
+TimeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/netsecurity/!svn/ver/35/netsecurity/src/com/netsecurity/enums/TimeType.java
+END
+UnitType.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/netsecurity/!svn/ver/202/netsecurity/src/com/netsecurity/enums/UnitType.java
+END
+StatusType.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/netsecurity/!svn/ver/34/netsecurity/src/com/netsecurity/enums/StatusType.java
+END
+LevelType.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/netsecurity/!svn/ver/81/netsecurity/src/com/netsecurity/enums/LevelType.java
+END

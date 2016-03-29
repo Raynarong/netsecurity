@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/netsecurity/!svn/ver/251/netsecurity/src
+END
+struts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/netsecurity/!svn/ver/250/netsecurity/src/struts.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/netsecurity/!svn/ver/20/netsecurity/src/log4j.properties
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/netsecurity/!svn/ver/251/netsecurity/src/hibernate.cfg.xml
+END

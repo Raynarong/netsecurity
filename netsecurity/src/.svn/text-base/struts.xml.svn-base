@@ -1,0 +1,153 @@
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <constant name="struts.devMode" value="false" />
+    <constant name="struts.i18n.encoding" value="UTF-8"/>
+    <constant name="struts.enable.DynamicMethodInvocation" value="true" />
+    <constant name="struts.multipart.maxSize" value="1000000000"/> 
+
+
+<package name="user" extends="struts-default">
+	
+	<action name="login" class="com.netsecurity.action.LoginAction">
+<!--超级管理员	-->
+	<result  type="redirect" name="superAdmin">/main/mainFrame.jsp</result>
+<!--管理员  未写	-->
+	<result  type="redirect" name="admin">/main/mainFrame.jsp</result>
+<!--普通用户	-->
+	<result  type="redirect" name="commonUser">/main/mainFrame.jsp</result>
+	<result  name="error">login.jsp</result>
+	</action>
+	
+	<!-- 修改密码 -->
+	<!-- 
+	<action name="changePwd" class="com.bohuatech.action.LoginAction" method="changePwd">
+	</action>
+	 -->
+	<!-- 登出 -->
+	
+	<action  name="logout" class="com.netsecurity.action.LoginAction" method="logout">
+	<result type="redirect" name="success">/login.jsp</result>
+	</action>
+	 
+</package>
+<!--普通用户-->
+<package name="commonUser" extends="struts-default" namespace="/commonUser">
+
+	<action name="showCommonUserOnlineData" class="com.netsecurity.commonUser.action.CommonUserAction" method="showCommonUserOnlineData">
+	
+	</action>
+	<!-- 显示电脑数据网页 -->
+	<action name="showComputerOnLinePage" class="com.netsecurity.commonUser.action.CommonUserComputerAction" >
+		<result type="redirect" name="success">/commonUser/ComputerOnlineData.jsp</result>
+	</action>
+	<action name="showComputersOnLineData" class="com.netsecurity.commonUser.action.CommonUserComputerAction" method="showComputersOnLineData"></action>
+	<action name="showComputersOnLineStatus" class="com.netsecurity.commonUser.action.CommonUserComputerAction" method="showComputersOnLineStatus"></action>
+	
+	
+	<!-- 画学生在线信息走势图 -->
+	<action name="getUserStatusTrendData" class="com.netsecurity.commonUser.action.CommonUserAction" method="getUserStatusTrendData"></action>
+	
+	
+	<action name="showUserComputerTopStatus" class="com.netsecurity.commonUser.action.CommonUserComputerAction" method="showUserComputerTopStatus"></action>
+
+</package>
+
+<package name="data" namespace="/supervision" extends="struts-default">
+	<!-- 组员编辑 -->
+	<action name="editGroup" class="com.netsecurity.action.GroupAction" method="editGroup"/>
+	<!-- 修改密码 -->
+	<action name="editPassWord" class="com.netsecurity.action.UsersAction" method="editPassWord"/>
+	
+	<!-- 显示实验室数据列表-->
+	<action name="showLabsOnLineData" class="com.netsecurity.action.LaboratoryAction" method="showLabsOnLineData"></action>
+	<!-- 获取镇实验室列表-->
+	<!--  
+	<action name="getLabs" class="com.netsecurity.action.LaboratoryAction" method="getLabs"></action>
+	-->
+	<!-- 时间段画区域computer信息走势图 1内存利用率，2cpu利用率，3鼠标左键点击数，4鼠标右键点击数，5键盘敲击数-->
+	<!-- 6进程数，7任务数 ，8上行流量，9下行流量-->
+	
+	<action name="getLabStatusTrendData" class="com.netsecurity.action.LaboratoryAction" method="getLabStatusTrendData"></action>
+	
+	
+	<!-- 分天画区域computer信息走势图 1内存利用率，2cpu利用率，3鼠标左键点击数，4鼠标右键点击数，5键盘敲击数-->
+	<!-- 6进程数，7任务数 ，8上行流量，9下行流量-->
+	
+	<action name="getLabStatusTrendDataByDay" class="com.netsecurity.action.LaboratoryAction" method="getLabStatusTrendDataByDay"></action>
+	
+	<!-- 显示学生数据网页-->
+	<action name="showUsersOnLinePage" class="com.netsecurity.action.UsersAction" >
+		<result type="redirect" name="success">/supervision/UserOnlineData.jsp</result>
+	</action>
+	
+	<!-- 显示学生数据列表-->
+	<action name="showUsersOnLineData" class="com.netsecurity.action.UsersAction" method="showUsersOnLineData"></action>
+	<!-- 画学生在线computer信息走势图 1内存利用率，2cpu利用率，3鼠标左键点击数，4鼠标右键点击数，5键盘敲击数 -->
+	<!-- 6进程数，7任务数 ，8上行流量，9下行流量-->
+	<action name="getUserStatusTrendData" class="com.netsecurity.action.UsersAction" method="getUserStatusTrendData"></action>
+	
+	<!-- 画学生在线computer信息走势图 1内存利用率，2cpu利用率，3鼠标左键点击数，4鼠标右键点击数，5键盘敲击数 -->
+	<!-- 6进程数，7任务数 ，8上行流量，9下行流量-->
+	<action name="getUserStatusTrendDataByDay" class="com.netsecurity.action.UsersAction" method="getUserStatusTrendDataByDay"></action>
+	
+	<!-- 显示电脑数据网页 -->
+	<action name="showComputerOnLinePage" class="com.netsecurity.action.ComputerAction" >
+		<result type="redirect" name="success">/supervision/ComputerOnlineData.jsp</result>
+	</action>
+	<!-- 显示电脑数据列表-->
+	<action name="showComputersOnLineData" class="com.netsecurity.action.ComputerAction" method="showComputersOnLineData"></action>
+	<!-- 按时间段画电脑在线computer信息走势图 1内存利用率，2cpu利用率，3鼠标左键点击数，4鼠标右键点击数，5键盘敲击数 -->
+	<!-- 6进程数，7任务数 ，8上行流量，9下行流量-->
+	<!-- 显示电脑数据列表-->
+	<action name="showComputersOnLineStatus" class="com.netsecurity.action.ComputerAction" method="showComputersOnLineStatus"></action>
+	<!-- 按天画电脑在线computer信息走势图 1内存利用率，2cpu利用率，3鼠标左键点击数，4鼠标右键点击数，5键盘敲击数 -->
+	<!-- 6进程数，7任务数 ，8上行流量，9下行流量-->
+	<!-- 显示电脑数据列表-->
+	<action name="showComputersOnLineStatusByDay" class="com.netsecurity.action.ComputerAction" method="showComputersOnLineStatusByDay"></action>
+	<!--  
+	<action name="getDocOnlineTime" class="com.bohuatech.action.OnLineDataAction" method="getDocOnlineTime"></action>
+	-->
+
+	<!-- 显示搜索用户页面 -->
+	<action name="showFindUsersOnLinePage" class="com.netsecurity.action.UsersAction" method="showFindUsersOnLinePage">
+		<result name="success" type="redirect">/supervision/UserFindOnlineData.jsp</result>
+	</action>
+	<!-- 显示被搜索的用户 -->
+	<action name="showFindUsersOnLineData" class="com.netsecurity.action.UsersAction" method="showFindUsersOnLineData"/>
+	<!-- 显示成员列表（分组长，组员两种） -->
+	<action name="getLeaderList" class="com.netsecurity.action.UsersAction" method="getLeaderList"/>
+	
+	<!-- 搜索组员姓名 -->
+	<action name="searchGroupMumberNames" class="com.netsecurity.action.UsersAction" method="searchGroupMumberNames"/>
+	<!-- 添加组长 -->
+	<action name="addLeader" class="com.netsecurity.action.UsersAction" method="addLeader"/>
+	<!-- 删除组长 -->
+	<action name="delLeader" class="com.netsecurity.action.UsersAction" method="delLeader"/>
+	<!-- 显示组 -->
+	<action name="getGroups" class="com.netsecurity.action.GroupAction" method="getGroups"/>
+	<!-- 添加组 -->
+	<action name="addGroup" class="com.netsecurity.action.GroupAction" method="addGroup"/>
+	<!-- 更换组长 -->
+	<action name="updateLeader" class="com.netsecurity.action.GroupAction" method="updateLeader"/>
+	<!-- 更改组名 -->
+	<action name="updateGroupName" class="com.netsecurity.action.GroupAction" method="updateGroupName"/>
+	
+	<!-- 显示组员是否在线 -->
+	<action name="showGroupUsersOnLineData" class="com.netsecurity.action.UsersAction" method="showGroupUsersOnLineData"/>
+	
+	<!-- 显示组员是否在线 -->
+	<action name="showGroupUsersOnLineDataPage" class="com.netsecurity.action.GroupAction">
+		<result name="success" type="redirect">/supervision/GroupUserOnlineData.jsp</result>
+	</action>
+	
+	
+	
+</package>
+<package name="compute" extends="struts-default" namespace="/compute">
+      <action name="enterUploadPage" class="com.netsecurity.action.UpLoadAction" method="enterUploadPage">
+           <result name="success">/compute/uploadFile.jsp</result>
+      </action>
+</package>
+</struts>

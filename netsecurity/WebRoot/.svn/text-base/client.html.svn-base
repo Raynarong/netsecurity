@@ -1,0 +1,79 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>内网安全 客户端下载</title>
+<link href="/include/css/yun_download_min.css" rel="stylesheet" type="text/css" >
+<link href="http://s1.pan.bdstatic.com/static/images/favicon.ico" rel="shortcut icon" type="images/x-icon">
+</head>
+<body>
+<div class="clearfix" id="login-header">
+<div class="logo-main">
+<a class="yun-logo" href="http://yun.baidu.com/" target="_blank" title="内网安全">内网安全</a>
+<span class="hd-text clientDownload" title="客户端下载">客户端下载</span>
+</div>
+<span class="login-title">
+<a class="b-no-ln" href="javascript:void(0);" id="top_menu_other" target="_blank"></a> <span id="departForAd"></span> <a class="b-no-ln" hidefocus="true" href="http://202.197.61.249:8080">内网安全用户登录</a>
+</span>
+</div>
+<div class="download-cotent" id="download-cotent">
+<div class="download-head">
+<ul class="tab-download clearfix" id="tab-download">
+<li _idx="0" class="on"><a class="windows" href="javascript:;"><span>Windows</span></a></li>
+<li _idx="1"><a class="android" href="javascript:;"><span>Android</span></a></li>
+</ul>
+</div>
+<div class="download-info" id="download-info">
+<div class="windows-content content" style="display: block;">
+<div class="content-info">
+<div class="guanjia-c clint" id="guanjia-c">
+<p class="clint-info first">大小：884KB</p>
+<p class="clint-info">版本：内网安全管家 V1.0</p>
+<p class="clint-info">适应系统： XP/vista/win7 (均兼容32，64位)</p>
+<p class="clint-info">更新时间：2014-10-20</p>
+<p>Windows客户端安装注意事项:</p>
+<p class="clint-info">1、请先卸载之前安装过的版本，确保把原安装目录下所有文件删除</p>
+<p class="clint-info">2、由于卸载时首先卸载网卡驱动，过程中可能会出现断网情况，一段时间后如果没有自动恢复网络连接，请尝试重启</p>
+
+
+<table>
+<tr><td><a id="xp" class="clint-guanjia" hidefocus="true" href="http://202.197.61.249:8080/download/InnerSecSetupWindows.exe"></a></td></tr>
+<tr style="display:none"><td>win7 32位</td><td><a id="win732" class="clint-guanjia" hidefocus="true" href="http://202.197.61.249:8080/NetSecuratyInstall_Win7_x86.exe"></a></td></tr>
+<tr style="display:none"><td>win7 64位</td><td><a id="win764" class="clint-guanjia" hidefocus="true" href="http://202.197.61.249:8080/NetSecuratyInstall_Win7_x64.exe"></a></td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="android-content content">
+<div class="content-info">
+<div class="android-c clint" id="android-c">
+<p class="clint-info first">大小：5.22M</p>
+<p class="clint-info">版本：Linux版 V1.0</p>
+<p class="clint-info">适应系统：Ubuntu 12.04及以上，其他系统也可尝试安装。</p>
+<p class="clint-info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如有问题请联系swm8023@gmail.com。</p>
+<p class="clint-info">注意事项：请阅读README文档</p>
+<p class="clint-info">更新时间：2014-10-20</p>
+<a class="clint-android" hidefocus="true" href="http://202.197.61.249:8080/download/netsec_install_linux.zip"></a>
+</div>
+</div>
+</div>
+
+
+</div>
+<div class="download-bottom">
+<div class="download-method clearfix">
+
+<div class="two-dimension-code clearfix">
+<div class="two-dimension-code-text">
+<p class="first-text"></p>
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<div xmlns="http://www.w3.org/1999/xhtml">©2014 csunetlab <a class="b-lnk-gy" href="http://developer.csunetlab.com/wiki/index.php?title=%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3%E9%A6%96%E9%A1%B5/%E4%B8%AA%E4%BA%BA%E4%BA%91%E5%AD%98%E5%82%A8_API" target="_blank">开发者中心</a> | <a class="b-lnk-gy" href="/disk/duty/" target="_blank">服务协议</a> | <a class="b-lnk-gy" href="http://yun.csunetlab.com/disk/privacy" target="_blank">权利声明</a> | <a class="b-lnk-gy" href="http://yun.csunetlab.com/disk/version" target="_blank">版本更新</a> | <a class="b-lnk-gy" href="http://yun.csunetlab.com/disk/help" target="_blank">帮助中心</a> | <a class="b-lnk-gy" href="http://qingting.csunetlab.com/index?pid=19" target="_blank">问题反馈</a></div>
+</div>
+<script src="/include/js/download-all-min.js?t=201405080000" type="text/javascript"></script>
+
+</body></html>

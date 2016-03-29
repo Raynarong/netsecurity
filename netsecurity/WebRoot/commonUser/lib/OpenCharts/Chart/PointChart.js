@@ -1,0 +1,92 @@
+﻿/**
+ * @requires OpenCharts/BaseTypes/Class.js
+ * @requires OpenCharts/BaseTypes/Point.js
+ * @requires OpenCharts/BaseTypes/Rect.js
+ * @requires OpenCharts/TextStyle.js
+ *@requires OpenCharts/Style.js
+ * @requires OpenCharts/Item.js
+ * @requires OpenCharts/RenderEnginer.js
+ * @requires OpenCharts/Charts.js
+ */
+
+/**
+* Class: OpenCharts.Chart.PointChart
+* 面积图表类。用于创建面积类型的统计图表
+* Inherits from:
+    *  - <OpenCharts.Chart.AxesChart>
+    */
+OpenCharts.Chart.PointChart = OpenCharts.Class(OpenCharts.Chart.AxesChart,{
+
+    /**
+     * Constructor: OpenCharts.Chart.PointChart
+     *
+     * Parameters:
+     * div - {Obj} 外部传入canvas元素
+     * options - {Object} 设置该类开放的属性。
+     */
+    initialize: function (div, options){
+        OpenCharts.Chart.AxesChart.prototype.initialize.apply(this,
+            arguments);
+    },
+
+    /**
+     * Method: destroy
+     * Destroy is a destructor: this is to alleviate cyclic references which
+     *     the Javascript garbage cleaner can not take care of on its own.
+     */
+    destroy: function() {
+
+    },
+
+    /**
+     * Method: renderChart
+     * 渲染面积统计图表
+     */
+    renderChart:function(){
+        var me = this;
+        me.renderAxes();
+
+        var nXRange = me.nXRange;
+        var height =  me.axesHeight;
+        var nYRange = me.nYRange;
+        var nYStepNumber = me.nYStepNumber;
+        var stepYValue = me.stepYValue;
+
+        for(var i=0;i<me.itemArray.length;i++)
+        {
+            me.myContext.save();
+            me.myContext.fillStyle = "#FFF";
+            for(var j=0;j<me.itemArray[i].length;j++)
+            {
+                var areaStyle = me.itemArray[i][j].itemStyle;
+                if(typeof areaStyle == "string")
+                {
+                    me.myContext.strokeStyle = areaStyle;
+                    me.myContext.lineWidth = 1;
+                    me.myContext.fillStyle = areaStyle;
+                } else if(areaStyle === undefined)
+                {
+                    me.myContext.strokeStyle = "#" + i.toString() + i.toString() + i.toString();
+                    me.myContext.lineWidth = 1;
+                    me.myContext.fillStyle = me.myContext.strokeStyle;
+                }
+                else
+                {
+                    me.myContext.strokeStyle = areaStyle.strokeStyle;
+                    me.myContext.lineWidth = areaStyle.lineWidth;
+                    me.myContext.fillStyle = areaStyle.fillStyle;
+                }
+
+                me.myContext.beginPath();
+                var Y = me.height - (me.itemArray[i][j].data / stepYValue * nYRange) -  me.coordinateStyle.footerRange;
+                me.myContext.arc(nXRange*(j+1),Y, 4, 0, Math.PI * 2, true);
+                me.myContext.closePath();
+                me.myContext.fill();
+                me.myContext.stroke();
+            }
+            me.myContext.restore();
+        }
+    },
+
+    CLASS_NAME: "OpenCharts.Chart.PointChart"
+});

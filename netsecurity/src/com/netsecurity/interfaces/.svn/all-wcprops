@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/netsecurity/!svn/ver/231/netsecurity/src/com/netsecurity/interfaces
+END
+LaboratoryInter.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/netsecurity/!svn/ver/20/netsecurity/src/com/netsecurity/interfaces/LaboratoryInter.java
+END
+TrendDataByDayInter.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/netsecurity/!svn/ver/208/netsecurity/src/com/netsecurity/interfaces/TrendDataByDayInter.java
+END
+OnLineNumInter.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/netsecurity/!svn/ver/231/netsecurity/src/com/netsecurity/interfaces/OnLineNumInter.java
+END
+TrendDataInter.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/netsecurity/!svn/ver/190/netsecurity/src/com/netsecurity/interfaces/TrendDataInter.java
+END
+GroupinfoInter.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/netsecurity/!svn/ver/229/netsecurity/src/com/netsecurity/interfaces/GroupinfoInter.java
+END
+UserinfoInter.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/netsecurity/!svn/ver/230/netsecurity/src/com/netsecurity/interfaces/UserinfoInter.java
+END
+Usercomputer.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/netsecurity/!svn/ver/113/netsecurity/src/com/netsecurity/interfaces/Usercomputer.java
+END

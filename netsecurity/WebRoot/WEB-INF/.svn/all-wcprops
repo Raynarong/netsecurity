@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/netsecurity/!svn/ver/252/netsecurity/WebRoot/WEB-INF
+END
+c.tld
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/netsecurity/!svn/ver/61/netsecurity/WebRoot/WEB-INF/c.tld
+END
+jstl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/netsecurity/!svn/ver/61/netsecurity/WebRoot/WEB-INF/jstl.jar
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/netsecurity/!svn/ver/252/netsecurity/WebRoot/WEB-INF/web.xml
+END

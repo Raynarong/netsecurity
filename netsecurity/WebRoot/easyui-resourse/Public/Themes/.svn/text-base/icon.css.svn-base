@@ -1,0 +1,568 @@
+.icon-blank{
+    background:url('icons/blank.gif') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-add{
+    background:url('icons/edit_add.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-edit{
+    background:url('icons/edit.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-remove{
+    background:url('icons/edit_remove.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-save{
+    background:url('icons/filesave.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-cut{
+    background:url('icons/cut.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-ok{
+    background:url('icons/ok.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-no{
+    background:url('icons/no.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-cancel{
+    background:url('icons/cancel.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-reload{
+    background:url('icons/reload.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-search{
+    background:url('icons/search.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-print{
+    background:url('icons/print.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-help{
+    background:url('icons/help.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-undo{
+    background:url('icons/undo.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-redo{
+    background:url('icons/redo.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-back{
+    background:url('icons/back.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-sum{
+    background:url('icons/sum.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-tip{
+    background:url('icons/tip.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-openlayer{
+    background:url('icons/openlayer.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+
+.icon-mini-add{
+    background:url('icons/mini_add.png') no-repeat center center;
+	display:inline-block;
+}
+.icon-mini-edit{
+    background:url('icons/mini_edit.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-mini-refresh{
+    background:url('icons/mini_refresh.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+/*****************************************/
+.icon-menu{
+    background:url('icons/menu.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-system{
+    background:url('icons/system.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-function{
+    background:url('icons/function.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-user{
+    background:url('icons/role.png') no-repeat center center;
+	display:inline-block;
+}
+.icon-role{
+    background:url('icons/user.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-application{
+    background:url('icons/application.png') no-repeat center center;
+	display:inline-block;
+}
+.icon-exit{
+    background:url('icons/exit.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-lock{
+    background:url('icons/lock.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-theme{
+    background:url('icons/theme.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-controller{
+    background:url('icons/controller.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-setting{
+    background:url('icons/setting.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-department{
+    background:url('icons/department.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-dict{
+    background:url('icons/dict.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-category{
+    background:url('icons/category.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-icons{
+    background:url('icons/icons.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-fixPwd-sea{background:url(icons2/fixPwd.png) no-repeat 15px center;}
+
+.icon-fixPwd{
+	background:url(icons2/fixPwd.png) no-repeat center center;
+	display:inline-block;
+	}
+.icon-exit{
+	background:url(icons2/exit.png) no-repeat center center;
+	display:inline-block;
+	}
+
+
+/********************* 系统审计 ***************************/
+.icon-ywfw{
+	background:url(icons2/ywfw.png) no-repeat center center;
+	display:inline-block;
+	}
+.icon-ywfw-oprate{
+	background:url(icons2/record.png) no-repeat center center;
+	display:inline-block;
+	}	
+.icon-ywfw-login{
+	background:url(icons2/dywsj.png) no-repeat center center;
+	display:inline-block;
+	}	
+.icon-ywfw-cx{
+	background:url(icons2/ywfw-cx.png) no-repeat center center;
+	display:inline-block;
+	}
+	
+.icon-wlaq{
+	background:url(icons2/wlaq.png) no-repeat center center;
+	display:inline-block;
+	}
+.icon-wl-login{
+	background:url(icons2/wl-login.png) no-repeat center center;
+	display:inline-block;
+	}
+.icon-wlaq-oprate{
+	background:url(icons2/wlaq-oprate.png) no-repeat center center;
+	display:inline-block;
+	}	
+.icon-wlaq-cx{
+	background:url(icons2/wlaq-cx.png) no-repeat center center;
+	display:inline-block;
+	}	
+.icon-Admin{
+	background:url(icons2/admin.png) no-repeat 15px center;
+	}
+.icon-Admin-table{
+	background:url(icons2/admin.png) no-repeat 0 center;
+	display:inline-block;
+	padding-left:18px;
+	height:16px;
+	}	
+.icon-Mange{
+	background:url(icons/user.png) no-repeat 15px center;
+	}
+.icon-Mange-table{
+	background:url(icons/user.png) no-repeat 0 center;
+	display:inline-block;
+	padding-left:18px;
+	height:16px;
+	}			
+.icon-Company{
+	background:url(icons2/company.png) no-repeat 15px center;	
+	}
+.icon-Company-table{
+	background:url(icons2/company.png) no-repeat 0 center;
+	display:inline-block;
+	padding-left:18px;
+	height:16px;
+	}	
+.icon-ip{
+	background:url(icons2/ip.png) no-repeat 15px center;
+	}
+	
+.icon-ip-table{
+	background:url(icons2/ip.png) no-repeat 0 center;
+	display:inline-block;
+	height:16px;
+	padding-left:18px;
+	}	
+			
+.icon-time{
+	background:url(icons2/time.png) no-repeat 15px center;
+	}			
+.icon-time-table{
+	background:url(icons2/time.png) no-repeat 0 center;
+	display:inline-block;
+	padding-left:18px;
+	height:16px;
+	}	
+.icon-image-table{
+	background:url(icons2/image.png) no-repeat 0 center;
+	/*display:inline-block;*/
+	padding-left:18px;
+	height:16px;
+	cursor:pointer;
+	}	
+	
+/* 监测预警 */
+.icon-ytj-jk{
+	background:url(icons2/ytj-jk.png) no-repeat 0 center;
+	display:inline-block;
+	}
+.icon-VPN-jk{
+	background:url(icons2/VPN-jk.png) no-repeat 0 center;
+	display:inline-block;
+	}	
+.icon-ywllfx{
+	background:url(icons2/ywllfx.png) no-repeat 0 center;
+	display:inline-block;
+	}	
+.icon-fwqaq-jc{
+	background:url(icons2/fwqaq-jc.png) no-repeat 0 center;
+	display:inline-block;
+	}	
+.icon-fwqaq-jc{
+	background:url(icons2/fwqaq-jc.png) no-repeat 0 center;
+	display:inline-block;
+	}	
+.icon-yyrj-tj{
+	background:url(icons2/yyrj-tj.png) no-repeat 0 center;
+	display:inline-block;
+	}
+.icon-yjpd-tj{
+	background:url(icons2/yjpd-tj.png) no-repeat 0 center;
+	display:inline-block;
+	}
+.icon-save-table{
+	background:url(icons2/save-num.png) no-repeat 0 center;
+	display:inline-block;
+	padding-left:18px;
+	height:16px;
+	}	
+.icon-baohu-table{
+	background:url(icons2/baohu-num.png) no-repeat 0 center;
+	display:inline-block;
+	padding-left:18px;
+	height:16px;
+	}
+.icon-study-table{
+	background:url(icons2/study-num.png) no-repeat 0 center;
+	display:inline-block;
+	padding-left:18px;
+	height:16px;
+	}				
+	
+/**************** 运维服务 *********************/						
+.icon-d-ywsj{
+	background:url(icons2/d-ywsj.png) no-repeat center center;
+	display:inline-block;
+	}
+.icon-ywzy{
+	background:url(icons2/ywzy.png) no-repeat center center;
+	display:inline-block;
+	}	
+.icon-ywjl{
+	background:url(icons2/ywjl.png) no-repeat center center;
+	display:inline-block;
+	}	
+.icon-wjgl{
+	background:url(icons2/wjgl.png) no-repeat center center;
+	display:inline-block;
+	}	
+.icon-phone-table{
+	background:url(icons2/Phone.png) no-repeat 0 center;
+	display:inline-block;
+	padding-left:18px;
+	height:16px;
+	}	
+.icon-tool-table{
+	background:url(icons2/tools.png) no-repeat 0 center;
+	display:inline-block;
+	padding-left:18px;
+	height:16px;
+	}	
+.icon-user{
+	background:url(icons2/user.png) no-repeat center center;
+	display:inline-block;
+	}	
+
+/************** 信息安全 **********************/	
+.icon-netSave{
+	background:url(icons2/netSave.png) no-repeat 0 center;
+	display:inline-block;
+	}
+	
+.icon-tools{
+	background:url(icons2/tools.png) no-repeat 0 center;
+	display:inline-block;
+	}
+.icon-tjm{
+	background:url(icons2/tjm.png) no-repeat 0 center;
+	display:inline-block;
+	}
+.exit-login,.fix-pwd{ background-position:0 center;}	
+.icon-versions{
+	background:url(icons2/versions.png) no-repeat 0 center;
+	display:inline-block;
+	}	
+.icon-order{
+	background:url(icons2/order.png) no-repeat 15px center;
+	}	
+.icon-order-table{
+	background:url(icons2/order.png) no-repeat 0 center;
+	display:inline-block;
+	padding-left:18px;
+	height:16px;
+	}	
+	
+/*********** admin ******************/
+.icon-light{
+	background:url(icons2/light.png) no-repeat 0 center;
+	display:inline-block;
+	}
+.icon-map{
+	background:url(icons2/map.png) no-repeat 0 center;
+	display:inline-block;
+	}
+.icon-map-table{
+	background:url(icons2/map.png) no-repeat 0 center;
+	display:inline-block;
+	padding-left:18px;
+	height:16px;
+	}	
+.icon-shebei{
+	background:url(icons2/shebei.png) no-repeat 0 center;
+	display:inline-block;
+	}
+.icon-shebei-sea{
+	background:url(icons2/shebei.png) no-repeat 15px center;
+	}
+.icon-shebei-table{
+	background:url(icons2/shebei.png) no-repeat 0 center;
+	display:inline-block;
+	padding-left:18px;
+	height:16px;
+	}		
+.icon-user_error{
+	background:url(icons2/user_error.png) no-repeat 0 center;
+	display:inline-block;
+	}	
+.icon-audit{
+	background:url(icons2/audit.png) no-repeat 0 center;
+	display:inline-block;
+	}		
+.icon-maintenance{
+	background:url(icons2/maintenance.png) no-repeat 0 center;
+	display:inline-block;
+	}	
+.icon-Company2{
+	background:url(icons2/company.png) no-repeat 0 center;
+	display:inline-block;
+	
+	}			
+.icon-user_admin{
+	background:url(icons2/user_admin.png) no-repeat 0 center;
+	display:inline-block;	
+	}	 
+.icon-data{
+	background:url(icons2/data.png) no-repeat 0 center;
+	display:inline-block;	
+	}	
+.icon-cybf{
+	background:url(icons2/cybf.png) no-repeat 0 center;
+	display:inline-block;	
+	}		
+.icon-wzbf{
+	background:url(icons2/wzbf.png) no-repeat 0 center;
+	display:inline-block;	
+	}
+.icon-macip{
+	background:url(icons2/ip_mac.png) no-repeat 15px center;
+	display:inline-block;
+	}
+.icon-macip-table{
+	background:url(icons2/ip_mac.png) no-repeat 0 center;
+	display:inline-block;
+	padding-left:18px;
+	height:16px;
+	}
+.icon-systemInfo{
+	background:url(icons2/systemInfo.png) no-repeat 0 center;
+	display:inline-block;	
+	}
+.icon-image{
+	background:url(icons2/image.png) no-repeat 0 center;
+	display:inline-block;	
+	}	
+.icon-movie_up{
+	background:url(icons2/movie_up.png) no-repeat 0 center;
+	display:inline-block;
+	padding-left:20px;
+	}		
+.icon-jztools{
+	background:url(icons2/tools.png) no-repeat 0 center;
+	display:inline-block;
+	padding-left:20px;
+	}
+.icon-games{
+	background:url(icons2/games.png) no-repeat 0 center;
+	display:inline-block;
+	padding-left:20px;
+	}	
+.showimg1{background:url(icons2/line.png) no-repeat 0 center;
+	display:inline-block;
+	height:16px;
+	width:16px;
+	margin-left:5px;
+	}	
+.showimg2{background:url(icons2/line1.png) no-repeat 0 center;
+	display:inline-block;
+	height:32px;
+	width:32px;
+	}	
+.icon-bar{
+    background:url('icons2/bar.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-bar1{
+    background:url('icons2/bar1.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}	
+.icon-tableGo{
+    background:url('icons2/table_go.png') no-repeat center center;
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+}
+.icon-alam{
+    background:url('icons2/alarm.png') no-repeat center center;
+	display:inline-block;
+	height:30px;
+	width:30px;
+	vertical-align:middle;
+}	
+.icon-alamGray{
+    background:url('icons2/alarmGray.png') no-repeat center center;
+	display:inline-block;
+	height:30px;
+	width:30px;
+	vertical-align:middle;
+}
+				
